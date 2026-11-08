@@ -1,0 +1,57 @@
+{
+  "realm": "deliveryops",
+  "enabled": true,
+  "displayName": "DeliveryOps",
+  "sslRequired": "none",
+  "roles": {
+    "realm": [
+      { "name": "director", "description": "Delivery director: all clients, can validate" },
+      { "name": "delivery_manager", "description": "Delivery manager: assigned clients, can validate" },
+      { "name": "consultant", "description": "Consultant: assigned clients, read and ask only" }
+    ]
+  },
+  "components": {
+    "org.keycloak.userprofile.UserProfileProvider": [
+      {
+        "providerId": "declarative-user-profile",
+        "subComponents": {},
+        "config": {
+          "kc.user.profile.config": ["{\"unmanagedAttributePolicy\":\"ENABLED\",\"attributes\":[{\"name\":\"username\",\"permissions\":{\"view\":[\"admin\",\"user\"],\"edit\":[\"admin\"]}},{\"name\":\"email\",\"permissions\":{\"view\":[\"admin\",\"user\"],\"edit\":[\"admin\",\"user\"]}},{\"name\":\"firstName\",\"permissions\":{\"view\":[\"admin\",\"user\"],\"edit\":[\"admin\",\"user\"]}},{\"name\":\"lastName\",\"permissions\":{\"view\":[\"admin\",\"user\"],\"edit\":[\"admin\",\"user\"]}}]}"]
+        }
+      }
+    ]
+  },
+  "clients": [
+    {
+      "clientId": "deliveryops-app",
+      "name": "DeliveryOps web app",
+      "enabled": true,
+      "publicClient": true,
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": true,
+      "redirectUris": ["http://localhost:4300/*"],
+      "webOrigins": ["http://localhost:4300"],
+      "attributes": { "pkce.code.challenge.method": "S256" },
+      "protocolMappers": [
+        {
+          "name": "api-audience",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-audience-mapper",
+          "config": { "included.custom.audience": "deliveryops-api", "access.token.claim": "true", "id.token.claim": "false" }
+        },
+        {
+          "name": "clients",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "config": { "user.attribute": "clients", "claim.name": "clients", "jsonType.label": "String", "multivalued": "true", "access.token.claim": "true", "id.token.claim": "true", "userinfo.token.claim": "true" }
+        }
+      ]
+    }
+  ],
+  "users": [
+    { "username": "sarah", "firstName": "Sarah", "lastName": "Benali", "email": "sarah@deliveryops.local", "emailVerified": true, "enabled": true, "realmRoles": ["director"], "attributes": { "clients": ["*"] }, "credentials": [{ "type": "password", "value": "demo", "temporary": false }] },
+    { "username": "karim", "firstName": "Karim", "lastName": "Haddad", "email": "karim@deliveryops.local", "emailVerified": true, "enabled": true, "realmRoles": ["delivery_manager"], "attributes": { "clients": ["cli-atlas"] }, "credentials": [{ "type": "password", "value": "demo", "temporary": false }] },
+    { "username": "lea", "firstName": "Léa", "lastName": "Martin", "email": "lea@deliveryops.local", "emailVerified": true, "enabled": true, "realmRoles": ["delivery_manager"], "attributes": { "clients": ["cli-horizon"] }, "credentials": [{ "type": "password", "value": "demo", "temporary": false }] },
+    { "username": "tom", "firstName": "Tom", "lastName": "Girard", "email": "tom@deliveryops.local", "emailVerified": true, "enabled": true, "realmRoles": ["consultant"], "attributes": { "clients": ["cli-atlas"] }, "credentials": [{ "type": "password", "value": "demo", "temporary": false }] }
+  ]
+}

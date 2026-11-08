@@ -1,0 +1,10 @@
+﻿name;description;technology;criticality;business_owner;users_count
+EspaceAdherent;Portail web et mobile des adhérents : contrats, remboursements, décomptes, carte tiers payant, messagerie;Angular 17 / Spring Boot 3 / PostgreSQL 15;high;Direction Relation Adhérents;420000
+AdhesionCore;Adhésion, avenants, résiliations, cotisations et prélèvements SEPA;Java 17 / Spring Boot / PostgreSQL 15;critical;Direction Adhésions;900
+PrestaFlux;Liquidation des prestations et génération des remboursements;Java 11 / Oracle 19c;critical;Direction des Prestations;650
+TiersPayantHub;Échanges tiers payant avec les professionnels de santé;Spring Boot / Kafka / PostgreSQL;high;Direction des Prestations;300
+FluxNoemie;Intégration des flux NOEMIE 580 de l’Assurance Maladie;Talend / Control-M;critical;Direction des Prestations;40
+RefPersonnes;Référentiel des personnes et bénéficiaires;Java EE 8 / WildFly 18 / PostgreSQL;high;DSI;1200
+EditiqueSante;Cartes tiers payant, décomptes et courriers;OpenText Exstream 16;medium;Direction Relation Adhérents;60
+GEDAdhesion;GED des pièces justificatives;Alfresco 7.0;medium;Direction Adhésions;900
+DecisionnelSante;Reporting et tableaux de bord;Power BI / SQL Server 2019;low;Direction des Prestations;120

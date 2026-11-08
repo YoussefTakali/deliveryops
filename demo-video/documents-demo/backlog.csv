@@ -1,0 +1,18 @@
+﻿title;required_skill;estimate_h;priority;due_date;status;assignee
+Intégration du format NOEMIE 580 v2 — lot 2 (retours et rejets);talend;60;1;2026-10-16;in_progress;Mehdi Kacem
+Tableau de bord des rejets NOEMIE pour le service prestations;angular;40;2;2026-10-30;todo;
+Durcissement de l’authentification : bascule du code SMS vers la notification push;java 17;55;1;2026-10-23;todo;Nadia Bensalem
+Reprise automatique des lots PrestaFlux en erreur (étape CALCUL);oracle;45;1;2026-10-09;in_progress;Julien Marchand
+Montée de version Kafka 3.7 et rééquilibrage des partitions;kafka;35;2;2026-11-06;todo;Sophie Leroux
+Consentement e-mail — parcours d’adhésion (lot 2, collectives);angular;30;2;2026-10-16;todo;Amira Trabelsi
+Barème dentaire 2027 et plafonds annuels;oracle;24;2;2026-11-27;todo;
+Cartes tiers payant dématérialisées — flux éditique;java 17;48;2;2026-11-13;todo;
+Archivage PDF/A des décomptes;java 17;36;3;2026-12-04;todo;
+Rotation des secrets Oracle et Kafka via le coffre-fort Vault;architecture;16;1;2026-10-09;todo;Karim Ouali
+Supervision du lag Kafka (alerte Grafana + astreinte);kafka;12;1;2026-10-02;in_progress;Sophie Leroux
+Campagne de dédoublonnage RefPersonnes (T4);sql;28;3;2026-12-11;todo;
+Mise à jour Alfresco 7.4 (correctifs de sécurité);alfresco;20;2;2026-10-30;todo;Karim Ouali
+Accessibilité RGAA de l’espace adhérent (lot 1);angular;50;2;2026-11-20;todo;
+Optimisation des requêtes de liquidation (plans d’exécution Oracle);oracle;30;2;2026-10-23;todo;Julien Marchand
+Tests de charge avant la campagne de renouvellement de décembre;java 17;24;1;2026-10-16;todo;
+Renouvellement du certificat TLS de l’espace adhérent (14/12);architecture;4;1;2026-12-07;todo;Karim Ouali

@@ -1,0 +1,634 @@
+﻿member;day;activity_code;ticket_ref;hours;comment
+Amira Trabelsi;2026-06-01;MCO;INC-2026-022;7.0;Analyse et correction
+Julien Marchand;2026-06-01;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-01;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-06-01;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-06-01;UO;CHG-2026-007;3.5;Nouveau motif de résiliation « changement de situation profe
+Nadia Bensalem;2026-06-01;RUN;;3.5;Support N2/N3 et correctifs
+Sophie Leroux;2026-06-01;MCO;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-06-02;MCO;INC-2026-045;7.0;Analyse et correction
+Julien Marchand;2026-06-02;MCO;INC-2026-087;7.0;Analyse et correction
+Karim Ouali;2026-06-02;RUN;INC-2026-025;3.0;Analyse et correction
+Mehdi Kacem;2026-06-02;RUN;INC-2026-041;7.0;Analyse et correction
+Nadia Bensalem;2026-06-02;UO;CHG-2026-007;3.5;Nouveau motif de résiliation « changement de situation profe
+Nadia Bensalem;2026-06-02;RUN;INC-2026-043;3.5;Analyse et correction
+Sophie Leroux;2026-06-02;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-06-03;MCO;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-03;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-03;RUN;INC-2026-079;3.0;Analyse et correction
+Mehdi Kacem;2026-06-03;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-06-03;UO;CHG-2026-007;3.5;Nouveau motif de résiliation « changement de situation profe
+Nadia Bensalem;2026-06-03;RUN;INC-2026-092;3.5;Analyse et correction
+Sophie Leroux;2026-06-03;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-06-04;RUN;INC-2026-020;7.0;Analyse et correction
+Julien Marchand;2026-06-04;MCO;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-04;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-06-04;MCO;INC-2026-006;7.0;Analyse et correction
+Nadia Bensalem;2026-06-04;UO;CHG-2026-007;3.5;Nouveau motif de résiliation « changement de situation profe
+Nadia Bensalem;2026-06-04;MCO;;3.5;Support N2/N3 et correctifs
+Sophie Leroux;2026-06-04;RUN;INC-2026-034;4.0;Analyse et correction
+Amira Trabelsi;2026-06-05;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-05;UO;CHG-2026-012;6.0;Contrôle d’unicité des actes remboursés
+Julien Marchand;2026-06-05;RUN;INC-2026-063;1.0;Analyse et correction
+Karim Ouali;2026-06-05;MCO;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-06-05;RUN;INC-2026-006;7.0;Analyse et correction
+Nadia Bensalem;2026-06-05;UO;CHG-2026-007;3.5;Nouveau motif de résiliation « changement de situation profe
+Nadia Bensalem;2026-06-05;RUN;INC-2026-043;3.5;Analyse et correction
+Sophie Leroux;2026-06-05;INTERNAL;;1.5;Réunion d’équipe / veille
+Sophie Leroux;2026-06-05;RUN;;2.5;Support N2/N3 et correctifs
+Amira Trabelsi;2026-06-08;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-08;UO;CHG-2026-012;6.0;Contrôle d’unicité des actes remboursés
+Julien Marchand;2026-06-08;MCO;INC-2026-097;1.0;Analyse et correction
+Karim Ouali;2026-06-08;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-06-08;RUN;INC-2026-010;7.0;Analyse et correction
+Nadia Bensalem;2026-06-08;UO;CHG-2026-007;3.5;Nouveau motif de résiliation « changement de situation profe
+Nadia Bensalem;2026-06-08;EVOL;CHG-2026-011;2.5;Historisation des avenants avec motif et auteur
+Nadia Bensalem;2026-06-08;MCO;INC-2026-053;1.0;Analyse et correction
+Sophie Leroux;2026-06-08;MCO;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-06-09;RUN;INC-2026-001;7.0;Analyse et correction
+Julien Marchand;2026-06-09;UO;CHG-2026-012;6.0;Contrôle d’unicité des actes remboursés
+Julien Marchand;2026-06-09;MCO;INC-2026-100;1.0;Analyse et correction
+Karim Ouali;2026-06-09;RUN;INC-2026-054;3.0;Analyse et correction
+Mehdi Kacem;2026-06-09;RUN;INC-2026-035;7.0;Analyse et correction
+Nadia Bensalem;2026-06-09;EVOL;CHG-2026-011;4.5;Historisation des avenants avec motif et auteur
+Nadia Bensalem;2026-06-09;RUN;;2.5;Support N2/N3 et correctifs
+Sophie Leroux;2026-06-09;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-06-10;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-10;UO;CHG-2026-012;6.0;Contrôle d’unicité des actes remboursés
+Julien Marchand;2026-06-10;RUN;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-10;RUN;INC-2026-054;3.0;Analyse et correction
+Mehdi Kacem;2026-06-10;MCO;INC-2026-005;7.0;Analyse et correction
+Nadia Bensalem;2026-06-10;EVOL;CHG-2026-011;4.5;Historisation des avenants avec motif et auteur
+Nadia Bensalem;2026-06-10;MCO;;2.5;Support N2/N3 et correctifs
+Sophie Leroux;2026-06-10;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-06-11;RUN;INC-2026-022;7.0;Analyse et correction
+Julien Marchand;2026-06-11;UO;CHG-2026-012;6.0;Contrôle d’unicité des actes remboursés
+Julien Marchand;2026-06-11;MCO;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-11;RUN;INC-2026-025;3.0;Analyse et correction
+Mehdi Kacem;2026-06-11;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-06-11;EVOL;CHG-2026-011;4.5;Historisation des avenants avec motif et auteur
+Nadia Bensalem;2026-06-11;RUN;INC-2026-080;2.5;Analyse et correction
+Sophie Leroux;2026-06-11;RUN;INC-2026-019;4.0;Analyse et correction
+Amira Trabelsi;2026-06-12;RUN;INC-2026-070;7.0;Analyse et correction
+Julien Marchand;2026-06-12;UO;CHG-2026-012;6.0;Contrôle d’unicité des actes remboursés
+Julien Marchand;2026-06-12;RUN;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-12;RUN;INC-2026-054;3.0;Analyse et correction
+Mehdi Kacem;2026-06-12;MCO;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-06-12;EVOL;CHG-2026-011;4.5;Historisation des avenants avec motif et auteur
+Nadia Bensalem;2026-06-12;RUN;INC-2026-044;2.5;Analyse et correction
+Sophie Leroux;2026-06-12;INTERNAL;;1.5;Réunion d’équipe / veille
+Sophie Leroux;2026-06-12;RUN;INC-2026-062;2.5;Analyse et correction
+Amira Trabelsi;2026-06-15;MCO;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-15;MCO;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-15;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-06-15;MCO;INC-2026-007;7.0;Analyse et correction
+Nadia Bensalem;2026-06-15;UO;CHG-2026-009;2.0;Contrôle de la date de signature du mandat SEPA
+Nadia Bensalem;2026-06-15;UO;CHG-2026-010;4.0;Mise à jour du barème optique 2026
+Nadia Bensalem;2026-06-15;RUN;INC-2026-092;1.0;Analyse et correction
+Sophie Leroux;2026-06-15;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-06-16;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-16;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-16;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-06-16;RUN;INC-2026-041;7.0;Analyse et correction
+Nadia Bensalem;2026-06-16;UO;CHG-2026-009;2.0;Contrôle de la date de signature du mandat SEPA
+Nadia Bensalem;2026-06-16;UO;CHG-2026-010;4.0;Mise à jour du barème optique 2026
+Nadia Bensalem;2026-06-16;MCO;INC-2026-047;1.0;Analyse et correction
+Sophie Leroux;2026-06-16;RUN;INC-2026-074;4.0;Analyse et correction
+Amira Trabelsi;2026-06-17;MCO;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-17;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-17;RUN;INC-2026-079;3.0;Analyse et correction
+Mehdi Kacem;2026-06-17;RUN;INC-2026-035;7.0;Analyse et correction
+Nadia Bensalem;2026-06-17;UO;CHG-2026-009;2.0;Contrôle de la date de signature du mandat SEPA
+Nadia Bensalem;2026-06-17;UO;CHG-2026-010;4.0;Mise à jour du barème optique 2026
+Nadia Bensalem;2026-06-17;RUN;;1.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-06-17;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-06-18;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-18;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-18;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-06-18;RUN;INC-2026-029;7.0;Analyse et correction
+Nadia Bensalem;2026-06-18;UO;CHG-2026-009;2.0;Contrôle de la date de signature du mandat SEPA
+Nadia Bensalem;2026-06-18;UO;CHG-2026-010;4.0;Mise à jour du barème optique 2026
+Nadia Bensalem;2026-06-18;RUN;;1.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-06-18;RUN;INC-2026-016;4.0;Analyse et correction
+Amira Trabelsi;2026-06-19;MCO;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-19;INTERNAL;;1.5;Réunion d’équipe / veille
+Julien Marchand;2026-06-19;RUN;;5.5;Support N2/N3 et correctifs
+Karim Ouali;2026-06-19;INTERNAL;;1.5;Réunion d’équipe / veille
+Karim Ouali;2026-06-19;RUN;INC-2026-050;1.5;Analyse et correction
+Mehdi Kacem;2026-06-19;TRAINING;;7.0;Formation Talend 8 (jour 1)
+Nadia Bensalem;2026-06-19;UO;CHG-2026-010;5.5;Mise à jour du barème optique 2026
+Nadia Bensalem;2026-06-19;EVOL;CHG-2026-011;0.5;Historisation des avenants avec motif et auteur
+Nadia Bensalem;2026-06-19;RUN;INC-2026-091;1.0;Analyse et correction
+Sophie Leroux;2026-06-19;RUN;INC-2026-046;4.0;Analyse et correction
+Amira Trabelsi;2026-06-22;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-22;MCO;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-22;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-06-22;RUN;INC-2026-010;7.0;Analyse et correction
+Nadia Bensalem;2026-06-22;UO;CHG-2026-010;5.5;Mise à jour du barème optique 2026
+Nadia Bensalem;2026-06-22;EVOL;CHG-2026-011;0.5;Historisation des avenants avec motif et auteur
+Nadia Bensalem;2026-06-22;RUN;INC-2026-085;1.0;Analyse et correction
+Sophie Leroux;2026-06-22;RUN;INC-2026-016;4.0;Analyse et correction
+Amira Trabelsi;2026-06-23;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-23;MCO;INC-2026-087;7.0;Analyse et correction
+Karim Ouali;2026-06-23;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-06-23;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-06-23;UO;CHG-2026-010;5.5;Mise à jour du barème optique 2026
+Nadia Bensalem;2026-06-23;MCO;;1.5;Support N2/N3 et correctifs
+Sophie Leroux;2026-06-23;RUN;INC-2026-060;4.0;Analyse et correction
+Amira Trabelsi;2026-06-24;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-24;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-24;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-06-24;UO;CHG-2026-029;2.5;Indicateur de délai de remboursement dans le tableau de bord
+Mehdi Kacem;2026-06-24;RUN;;4.5;Support N2/N3 et correctifs
+Nadia Bensalem;2026-06-24;UO;CHG-2026-010;0.5;Mise à jour du barème optique 2026
+Nadia Bensalem;2026-06-24;RUN;INC-2026-082;6.5;Analyse et correction
+Sophie Leroux;2026-06-24;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-06-25;RUN;INC-2026-073;7.0;Analyse et correction
+Julien Marchand;2026-06-25;RUN;INC-2026-094;7.0;Analyse et correction
+Karim Ouali;2026-06-25;RUN;INC-2026-050;3.0;Analyse et correction
+Mehdi Kacem;2026-06-25;UO;CHG-2026-029;2.5;Indicateur de délai de remboursement dans le tableau de bord
+Mehdi Kacem;2026-06-25;RUN;;4.5;Support N2/N3 et correctifs
+Nadia Bensalem;2026-06-25;MCO;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-06-25;RUN;INC-2026-016;4.0;Analyse et correction
+Amira Trabelsi;2026-06-26;INTERNAL;;1.5;Réunion d’équipe / veille
+Amira Trabelsi;2026-06-26;RUN;INC-2026-020;5.5;Analyse et correction
+Julien Marchand;2026-06-26;UO;CHG-2026-026;2.0;Ajout du QR code sur les décomptes
+Julien Marchand;2026-06-26;RUN;;5.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-26;INTERNAL;;1.5;Réunion d’équipe / veille
+Karim Ouali;2026-06-26;RUN;INC-2026-054;1.5;Analyse et correction
+Mehdi Kacem;2026-06-26;UO;CHG-2026-029;2.5;Indicateur de délai de remboursement dans le tableau de bord
+Mehdi Kacem;2026-06-26;RUN;;4.5;Support N2/N3 et correctifs
+Nadia Bensalem;2026-06-26;RUN;INC-2026-085;7.0;Analyse et correction
+Sophie Leroux;2026-06-26;INTERNAL;;1.5;Réunion d’équipe / veille
+Sophie Leroux;2026-06-26;RUN;INC-2026-078;2.5;Analyse et correction
+Amira Trabelsi;2026-06-29;UO;CHG-2026-003;2.0;Affichage du reste à charge sur le détail d’un décompte
+Amira Trabelsi;2026-06-29;RUN;;5.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-29;UO;CHG-2026-026;1.5;Ajout du QR code sur les décomptes
+Julien Marchand;2026-06-29;RUN;INC-2026-014;5.5;Analyse et correction
+Karim Ouali;2026-06-29;RUN;INC-2026-050;3.0;Analyse et correction
+Mehdi Kacem;2026-06-29;UO;CHG-2026-029;1.5;Indicateur de délai de remboursement dans le tableau de bord
+Mehdi Kacem;2026-06-29;RUN;;5.5;Support N2/N3 et correctifs
+Nadia Bensalem;2026-06-29;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-06-29;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-06-30;UO;CHG-2026-003;2.0;Affichage du reste à charge sur le détail d’un décompte
+Amira Trabelsi;2026-06-30;RUN;;5.0;Support N2/N3 et correctifs
+Julien Marchand;2026-06-30;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-06-30;EVOL;CHG-2026-027;3.0;Purge automatique des versions de pièces justificatives
+Mehdi Kacem;2026-06-30;UO;CHG-2026-022;2.5;Alerte mail en cas de fichier manquant à 6 h
+Mehdi Kacem;2026-06-30;RUN;INC-2026-026;4.5;Analyse et correction
+Nadia Bensalem;2026-06-30;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-06-30;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-07-01;UO;CHG-2026-003;2.0;Affichage du reste à charge sur le détail d’un décompte
+Amira Trabelsi;2026-07-01;RUN;INC-2026-023;5.0;Analyse et correction
+Julien Marchand;2026-07-01;RUN;INC-2026-015;7.0;Analyse et correction
+Karim Ouali;2026-07-01;EVOL;CHG-2026-027;3.0;Purge automatique des versions de pièces justificatives
+Mehdi Kacem;2026-07-01;UO;CHG-2026-022;2.5;Alerte mail en cas de fichier manquant à 6 h
+Mehdi Kacem;2026-07-01;RUN;INC-2026-035;4.5;Analyse et correction
+Nadia Bensalem;2026-07-01;MCO;INC-2026-077;7.0;Analyse et correction
+Sophie Leroux;2026-07-01;RUN;INC-2026-078;4.0;Analyse et correction
+Amira Trabelsi;2026-07-02;UO;CHG-2026-003;2.0;Affichage du reste à charge sur le détail d’un décompte
+Amira Trabelsi;2026-07-02;RUN;;5.0;Support N2/N3 et correctifs
+Julien Marchand;2026-07-02;RUN;INC-2026-003;7.0;Analyse et correction
+Karim Ouali;2026-07-02;EVOL;CHG-2026-027;3.0;Purge automatique des versions de pièces justificatives
+Mehdi Kacem;2026-07-02;UO;CHG-2026-022;2.5;Alerte mail en cas de fichier manquant à 6 h
+Mehdi Kacem;2026-07-02;RUN;;4.5;Support N2/N3 et correctifs
+Nadia Bensalem;2026-07-02;RUN;INC-2026-030;7.0;Analyse et correction
+Sophie Leroux;2026-07-02;MCO;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-07-03;RUN;INC-2026-056;7.0;Analyse et correction
+Julien Marchand;2026-07-03;RUN;INC-2026-064;7.0;Analyse et correction
+Karim Ouali;2026-07-03;EVOL;CHG-2026-027;3.0;Purge automatique des versions de pièces justificatives
+Mehdi Kacem;2026-07-03;INTERNAL;;1.5;Réunion d’équipe / veille
+Mehdi Kacem;2026-07-03;RUN;;5.5;Support N2/N3 et correctifs
+Nadia Bensalem;2026-07-03;RUN;INC-2026-077;7.0;Analyse et correction
+Sophie Leroux;2026-07-03;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-07-06;RUN;INC-2026-020;7.0;Analyse et correction
+Julien Marchand;2026-07-06;UO;CHG-2026-015;6.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-06;RUN;INC-2026-014;1.0;Analyse et correction
+Karim Ouali;2026-07-06;EVOL;CHG-2026-027;3.0;Purge automatique des versions de pièces justificatives
+Mehdi Kacem;2026-07-06;MCO;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-07-06;MCO;INC-2026-075;7.0;Analyse et correction
+Sophie Leroux;2026-07-06;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-07-07;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-07-07;UO;CHG-2026-015;6.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-07;RUN;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-07-07;EVOL;CHG-2026-027;3.0;Purge automatique des versions de pièces justificatives
+Mehdi Kacem;2026-07-07;RUN;INC-2026-007;7.0;Analyse et correction
+Nadia Bensalem;2026-07-07;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-07-07;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-07-08;RUN;INC-2026-001;7.0;Analyse et correction
+Julien Marchand;2026-07-08;UO;CHG-2026-015;6.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-08;RUN;INC-2026-003;1.0;Analyse et correction
+Karim Ouali;2026-07-08;EVOL;CHG-2026-027;3.0;Purge automatique des versions de pièces justificatives
+Mehdi Kacem;2026-07-08;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-07-08;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-07-08;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-07-09;MCO;INC-2026-096;7.0;Analyse et correction
+Julien Marchand;2026-07-09;UO;CHG-2026-014;3.0;Ajout du code motif de rejet dans le décompte
+Julien Marchand;2026-07-09;UO;CHG-2026-015;3.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-09;RUN;INC-2026-014;1.0;Analyse et correction
+Karim Ouali;2026-07-09;EVOL;CHG-2026-027;1.0;Purge automatique des versions de pièces justificatives
+Karim Ouali;2026-07-09;UO;CHG-2026-028;2.0;Nouveau type de pièce « attestation employeur »
+Mehdi Kacem;2026-07-09;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-07-09;RUN;INC-2026-040;7.0;Analyse et correction
+Sophie Leroux;2026-07-09;RUN;INC-2026-034;4.0;Analyse et correction
+Amira Trabelsi;2026-07-10;UO;CHG-2026-005;6.0;Nouveau parcours de résiliation en ligne (loi Lemoine)
+Amira Trabelsi;2026-07-10;MCO;INC-2026-001;1.0;Analyse et correction
+Julien Marchand;2026-07-10;UO;CHG-2026-014;3.0;Ajout du code motif de rejet dans le décompte
+Julien Marchand;2026-07-10;UO;CHG-2026-015;3.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-10;RUN;INC-2026-087;1.0;Analyse et correction
+Karim Ouali;2026-07-10;UO;CHG-2026-028;2.0;Nouveau type de pièce « attestation employeur »
+Karim Ouali;2026-07-10;RUN;;1.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-07-10;MCO;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-07-10;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-07-10;RUN;INC-2026-034;4.0;Analyse et correction
+Amira Trabelsi;2026-07-13;UO;CHG-2026-005;6.0;Nouveau parcours de résiliation en ligne (loi Lemoine)
+Amira Trabelsi;2026-07-13;MCO;;1.0;Support N2/N3 et correctifs
+Julien Marchand;2026-07-13;UO;CHG-2026-014;3.0;Ajout du code motif de rejet dans le décompte
+Julien Marchand;2026-07-13;UO;CHG-2026-015;3.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-13;MCO;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-07-13;UO;CHG-2026-028;1.0;Nouveau type de pièce « attestation employeur »
+Karim Ouali;2026-07-13;RUN;;2.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-07-13;RUN;INC-2026-029;7.0;Analyse et correction
+Nadia Bensalem;2026-07-13;RUN;INC-2026-043;7.0;Analyse et correction
+Sophie Leroux;2026-07-13;UO;CHG-2026-017;4.0;Réémission automatique des retours de paiement en erreur
+Amira Trabelsi;2026-07-14;UO;CHG-2026-001;2.5;Ajout du filtre par bénéficiaire sur la liste des remboursem
+Amira Trabelsi;2026-07-14;UO;CHG-2026-005;3.5;Nouveau parcours de résiliation en ligne (loi Lemoine)
+Amira Trabelsi;2026-07-14;MCO;INC-2026-001;1.0;Analyse et correction
+Julien Marchand;2026-07-14;UO;CHG-2026-014;3.0;Ajout du code motif de rejet dans le décompte
+Julien Marchand;2026-07-14;UO;CHG-2026-015;3.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-14;RUN;INC-2026-084;1.0;Analyse et correction
+Karim Ouali;2026-07-14;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-07-14;RUN;INC-2026-041;7.0;Analyse et correction
+Nadia Bensalem;2026-07-14;RUN;INC-2026-033;7.0;Analyse et correction
+Sophie Leroux;2026-07-14;UO;CHG-2026-017;4.0;Réémission automatique des retours de paiement en erreur
+Amira Trabelsi;2026-07-15;UO;CHG-2026-001;2.5;Ajout du filtre par bénéficiaire sur la liste des remboursem
+Amira Trabelsi;2026-07-15;UO;CHG-2026-005;3.5;Nouveau parcours de résiliation en ligne (loi Lemoine)
+Amira Trabelsi;2026-07-15;MCO;;1.0;Support N2/N3 et correctifs
+Julien Marchand;2026-07-15;UO;CHG-2026-014;2.0;Ajout du code motif de rejet dans le décompte
+Julien Marchand;2026-07-15;UO;CHG-2026-015;4.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-15;RUN;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-07-15;RUN;INC-2026-025;3.0;Analyse et correction
+Mehdi Kacem;2026-07-15;RUN;INC-2026-002;7.0;Analyse et correction
+Nadia Bensalem;2026-07-15;RUN;INC-2026-043;7.0;Analyse et correction
+Sophie Leroux;2026-07-15;UO;CHG-2026-017;4.0;Réémission automatique des retours de paiement en erreur
+Amira Trabelsi;2026-07-16;UO;CHG-2026-001;2.5;Ajout du filtre par bénéficiaire sur la liste des remboursem
+Amira Trabelsi;2026-07-16;UO;CHG-2026-005;3.5;Nouveau parcours de résiliation en ligne (loi Lemoine)
+Amira Trabelsi;2026-07-16;RUN;;1.0;Support N2/N3 et correctifs
+Julien Marchand;2026-07-16;UO;CHG-2026-015;6.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-16;RUN;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-07-16;MCO;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-07-16;MCO;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-07-16;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-07-16;UO;CHG-2026-017;4.0;Réémission automatique des retours de paiement en erreur
+Amira Trabelsi;2026-07-17;UO;CHG-2026-001;2.0;Ajout du filtre par bénéficiaire sur la liste des remboursem
+Amira Trabelsi;2026-07-17;UO;CHG-2026-002;4.0;Ajout du consentement e-mail dans le parcours d’adhésion en 
+Amira Trabelsi;2026-07-17;RUN;INC-2026-022;1.0;Analyse et correction
+Julien Marchand;2026-07-17;UO;CHG-2026-015;6.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-17;INTERNAL;;1.5;Réunion d’équipe / veille
+Karim Ouali;2026-07-17;RUN;INC-2026-025;3.0;Analyse et correction
+Mehdi Kacem;2026-07-17;RUN;INC-2026-035;7.0;Analyse et correction
+Nadia Bensalem;2026-07-17;RUN;INC-2026-036;7.0;Analyse et correction
+Sophie Leroux;2026-07-17;UO;CHG-2026-017;4.0;Réémission automatique des retours de paiement en erreur
+Amira Trabelsi;2026-07-20;UO;CHG-2026-002;4.0;Ajout du consentement e-mail dans le parcours d’adhésion en 
+Amira Trabelsi;2026-07-20;EVOL;CHG-2026-004;2.0;Refonte de l’écran de saisie du RIB (contrôle IBAN en temps 
+Amira Trabelsi;2026-07-20;MCO;INC-2026-045;1.0;Analyse et correction
+Julien Marchand;2026-07-20;UO;CHG-2026-015;6.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-20;RUN;INC-2026-087;1.0;Analyse et correction
+Karim Ouali;2026-07-20;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-07-20;RUN;INC-2026-002;7.0;Analyse et correction
+Nadia Bensalem;2026-07-20;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-07-20;UO;CHG-2026-017;4.0;Réémission automatique des retours de paiement en erreur
+Amira Trabelsi;2026-07-21;UO;CHG-2026-002;4.0;Ajout du consentement e-mail dans le parcours d’adhésion en 
+Amira Trabelsi;2026-07-21;EVOL;CHG-2026-004;2.0;Refonte de l’écran de saisie du RIB (contrôle IBAN en temps 
+Amira Trabelsi;2026-07-21;MCO;;1.0;Support N2/N3 et correctifs
+Julien Marchand;2026-07-21;UO;CHG-2026-015;6.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-21;RUN;INC-2026-031;1.0;Analyse et correction
+Karim Ouali;2026-07-21;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-07-21;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-07-21;EVOL;CHG-2026-024;3.5;Augmentation du pool de connexions et tests de charge
+Nadia Bensalem;2026-07-21;UO;CHG-2026-031;2.5;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-07-21;RUN;INC-2026-068;1.0;Analyse et correction
+Sophie Leroux;2026-07-21;UO;CHG-2026-017;4.0;Réémission automatique des retours de paiement en erreur
+Amira Trabelsi;2026-07-22;UO;CHG-2026-002;4.0;Ajout du consentement e-mail dans le parcours d’adhésion en 
+Amira Trabelsi;2026-07-22;EVOL;CHG-2026-004;2.0;Refonte de l’écran de saisie du RIB (contrôle IBAN en temps 
+Amira Trabelsi;2026-07-22;RUN;;1.0;Support N2/N3 et correctifs
+Julien Marchand;2026-07-22;UO;CHG-2026-015;6.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-22;RUN;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-07-22;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-07-22;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-07-22;EVOL;CHG-2026-024;3.5;Augmentation du pool de connexions et tests de charge
+Nadia Bensalem;2026-07-22;UO;CHG-2026-031;2.5;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-07-22;RUN;;1.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-07-22;UO;CHG-2026-017;4.0;Réémission automatique des retours de paiement en erreur
+Amira Trabelsi;2026-07-23;UO;CHG-2026-002;4.0;Ajout du consentement e-mail dans le parcours d’adhésion en 
+Amira Trabelsi;2026-07-23;EVOL;CHG-2026-004;2.0;Refonte de l’écran de saisie du RIB (contrôle IBAN en temps 
+Amira Trabelsi;2026-07-23;MCO;;1.0;Support N2/N3 et correctifs
+Julien Marchand;2026-07-23;UO;CHG-2026-015;6.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-23;RUN;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-07-23;RUN;INC-2026-027;3.0;Analyse et correction
+Mehdi Kacem;2026-07-23;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-07-23;EVOL;CHG-2026-024;3.5;Augmentation du pool de connexions et tests de charge
+Nadia Bensalem;2026-07-23;UO;CHG-2026-031;2.5;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-07-23;RUN;;1.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-07-23;UO;CHG-2026-017;2.0;Réémission automatique des retours de paiement en erreur
+Sophie Leroux;2026-07-23;UO;CHG-2026-019;2.0;Ajout du code FINESS dans les rejets
+Amira Trabelsi;2026-07-24;UO;CHG-2026-002;4.0;Ajout du consentement e-mail dans le parcours d’adhésion en 
+Amira Trabelsi;2026-07-24;EVOL;CHG-2026-004;2.0;Refonte de l’écran de saisie du RIB (contrôle IBAN en temps 
+Amira Trabelsi;2026-07-24;RUN;INC-2026-020;1.0;Analyse et correction
+Julien Marchand;2026-07-24;UO;CHG-2026-015;6.0;Intégration du nouveau format NOEMIE 580 v2
+Julien Marchand;2026-07-24;RUN;INC-2026-012;1.0;Analyse et correction
+Karim Ouali;2026-07-24;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-07-24;INTERNAL;;1.5;Réunion d’équipe / veille
+Mehdi Kacem;2026-07-24;RUN;INC-2026-059;5.5;Analyse et correction
+Nadia Bensalem;2026-07-24;UO;CHG-2026-023;2.5;Règle de dédoublonnage sur nom, prénom, date de naissance et
+Nadia Bensalem;2026-07-24;EVOL;CHG-2026-024;0.5;Augmentation du pool de connexions et tests de charge
+Nadia Bensalem;2026-07-24;UO;CHG-2026-031;3.0;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-07-24;RUN;INC-2026-080;1.0;Analyse et correction
+Sophie Leroux;2026-07-24;UO;CHG-2026-019;4.0;Ajout du code FINESS dans les rejets
+Amira Trabelsi;2026-07-27;UO;CHG-2026-002;4.0;Ajout du consentement e-mail dans le parcours d’adhésion en 
+Amira Trabelsi;2026-07-27;EVOL;CHG-2026-004;2.0;Refonte de l’écran de saisie du RIB (contrôle IBAN en temps 
+Amira Trabelsi;2026-07-27;RUN;INC-2026-067;1.0;Analyse et correction
+Karim Ouali;2026-07-27;RUN;INC-2026-079;3.0;Analyse et correction
+Mehdi Kacem;2026-07-27;RUN;INC-2026-059;7.0;Analyse et correction
+Nadia Bensalem;2026-07-27;UO;CHG-2026-023;2.5;Règle de dédoublonnage sur nom, prénom, date de naissance et
+Nadia Bensalem;2026-07-27;UO;CHG-2026-031;3.5;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-07-27;RUN;INC-2026-042;1.0;Analyse et correction
+Sophie Leroux;2026-07-27;UO;CHG-2026-019;3.0;Ajout du code FINESS dans les rejets
+Sophie Leroux;2026-07-27;MCO;INC-2026-018;1.0;Analyse et correction
+Amira Trabelsi;2026-07-28;UO;CHG-2026-002;1.0;Ajout du consentement e-mail dans le parcours d’adhésion en 
+Amira Trabelsi;2026-07-28;EVOL;CHG-2026-004;5.0;Refonte de l’écran de saisie du RIB (contrôle IBAN en temps 
+Amira Trabelsi;2026-07-28;MCO;INC-2026-089;1.0;Analyse et correction
+Karim Ouali;2026-07-28;RUN;INC-2026-025;3.0;Analyse et correction
+Mehdi Kacem;2026-07-28;MCO;INC-2026-007;7.0;Analyse et correction
+Nadia Bensalem;2026-07-28;UO;CHG-2026-023;2.5;Règle de dédoublonnage sur nom, prénom, date de naissance et
+Nadia Bensalem;2026-07-28;UO;CHG-2026-031;3.5;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-07-28;RUN;;1.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-07-28;MCO;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-07-29;EVOL;CHG-2026-004;5.0;Refonte de l’écran de saisie du RIB (contrôle IBAN en temps 
+Amira Trabelsi;2026-07-29;UO;CHG-2026-005;1.0;Nouveau parcours de résiliation en ligne (loi Lemoine)
+Amira Trabelsi;2026-07-29;MCO;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-07-29;MCO;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-07-29;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-07-29;UO;CHG-2026-023;2.5;Règle de dédoublonnage sur nom, prénom, date de naissance et
+Nadia Bensalem;2026-07-29;UO;CHG-2026-031;3.5;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-07-29;MCO;INC-2026-051;1.0;Analyse et correction
+Sophie Leroux;2026-07-29;MCO;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-07-30;EVOL;CHG-2026-004;5.0;Refonte de l’écran de saisie du RIB (contrôle IBAN en temps 
+Amira Trabelsi;2026-07-30;UO;CHG-2026-005;1.0;Nouveau parcours de résiliation en ligne (loi Lemoine)
+Amira Trabelsi;2026-07-30;RUN;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-07-30;RUN;INC-2026-054;3.0;Analyse et correction
+Mehdi Kacem;2026-07-30;RUN;INC-2026-029;7.0;Analyse et correction
+Nadia Bensalem;2026-07-30;UO;CHG-2026-023;2.5;Règle de dédoublonnage sur nom, prénom, date de naissance et
+Nadia Bensalem;2026-07-30;UO;CHG-2026-031;3.5;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-07-30;RUN;INC-2026-065;1.0;Analyse et correction
+Sophie Leroux;2026-07-30;MCO;INC-2026-032;4.0;Analyse et correction
+Amira Trabelsi;2026-07-31;EVOL;CHG-2026-004;4.0;Refonte de l’écran de saisie du RIB (contrôle IBAN en temps 
+Amira Trabelsi;2026-07-31;UO;CHG-2026-005;2.0;Nouveau parcours de résiliation en ligne (loi Lemoine)
+Amira Trabelsi;2026-07-31;RUN;INC-2026-028;1.0;Analyse et correction
+Karim Ouali;2026-07-31;MCO;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-07-31;RUN;INC-2026-006;7.0;Analyse et correction
+Nadia Bensalem;2026-07-31;UO;CHG-2026-023;2.5;Règle de dédoublonnage sur nom, prénom, date de naissance et
+Nadia Bensalem;2026-07-31;UO;CHG-2026-031;3.5;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-07-31;INTERNAL;;1.5;Réunion d’équipe / veille
+Sophie Leroux;2026-07-31;RUN;INC-2026-093;4.0;Analyse et correction
+Karim Ouali;2026-08-03;RUN;INC-2026-025;3.0;Analyse et correction
+Mehdi Kacem;2026-08-03;UO;CHG-2026-020;5.5;Contrôle préalable des enregistrements 3xx avant intégration
+Mehdi Kacem;2026-08-03;RUN;;1.5;Support N2/N3 et correctifs
+Nadia Bensalem;2026-08-03;UO;CHG-2026-023;2.0;Règle de dédoublonnage sur nom, prénom, date de naissance et
+Nadia Bensalem;2026-08-03;UO;CHG-2026-031;4.0;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-08-03;RUN;INC-2026-091;1.0;Analyse et correction
+Sophie Leroux;2026-08-03;MCO;;4.0;Support N2/N3 et correctifs
+Karim Ouali;2026-08-04;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-08-04;UO;CHG-2026-020;5.5;Contrôle préalable des enregistrements 3xx avant intégration
+Mehdi Kacem;2026-08-04;RUN;INC-2026-041;1.5;Analyse et correction
+Nadia Bensalem;2026-08-04;UO;CHG-2026-031;6.0;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-08-04;MCO;INC-2026-033;1.0;Analyse et correction
+Sophie Leroux;2026-08-04;RUN;;4.0;Support N2/N3 et correctifs
+Karim Ouali;2026-08-05;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-08-05;UO;CHG-2026-020;5.5;Contrôle préalable des enregistrements 3xx avant intégration
+Mehdi Kacem;2026-08-05;MCO;;1.5;Support N2/N3 et correctifs
+Nadia Bensalem;2026-08-05;UO;CHG-2026-031;6.0;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-08-05;MCO;INC-2026-080;1.0;Analyse et correction
+Sophie Leroux;2026-08-05;RUN;INC-2026-046;4.0;Analyse et correction
+Karim Ouali;2026-08-06;RUN;INC-2026-027;3.0;Analyse et correction
+Mehdi Kacem;2026-08-06;UO;CHG-2026-020;5.5;Contrôle préalable des enregistrements 3xx avant intégration
+Mehdi Kacem;2026-08-06;MCO;;1.5;Support N2/N3 et correctifs
+Nadia Bensalem;2026-08-06;UO;CHG-2026-031;6.0;Adhésion collective : import des salariés depuis un fichier 
+Nadia Bensalem;2026-08-06;RUN;INC-2026-037;1.0;Analyse et correction
+Sophie Leroux;2026-08-06;MCO;;4.0;Support N2/N3 et correctifs
+Karim Ouali;2026-08-07;RUN;INC-2026-071;3.0;Analyse et correction
+Mehdi Kacem;2026-08-07;UO;CHG-2026-020;5.5;Contrôle préalable des enregistrements 3xx avant intégration
+Mehdi Kacem;2026-08-07;RUN;INC-2026-035;1.5;Analyse et correction
+Nadia Bensalem;2026-08-07;EVOL;CHG-2026-008;6.0;Export CSV des adhésions en attente de pièces
+Nadia Bensalem;2026-08-07;INTERNAL;;1.5;Réunion d’équipe / veille
+Sophie Leroux;2026-08-07;RUN;INC-2026-078;4.0;Analyse et correction
+Julien Marchand;2026-08-10;EVOL;CHG-2026-013;6.0;Reprise automatique des lots en erreur (étape CALCUL)
+Julien Marchand;2026-08-10;RUN;INC-2026-012;1.0;Analyse et correction
+Karim Ouali;2026-08-10;RUN;INC-2026-049;3.0;Analyse et correction
+Mehdi Kacem;2026-08-10;UO;CHG-2026-020;5.5;Contrôle préalable des enregistrements 3xx avant intégration
+Mehdi Kacem;2026-08-10;RUN;;1.5;Support N2/N3 et correctifs
+Sophie Leroux;2026-08-10;EVOL;CHG-2026-018;2.0;Tableau de bord Grafana du lag Kafka
+Sophie Leroux;2026-08-10;RUN;;2.0;Support N2/N3 et correctifs
+Julien Marchand;2026-08-11;EVOL;CHG-2026-013;6.0;Reprise automatique des lots en erreur (étape CALCUL)
+Julien Marchand;2026-08-11;RUN;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-08-11;RUN;INC-2026-050;3.0;Analyse et correction
+Mehdi Kacem;2026-08-11;UO;CHG-2026-020;4.5;Contrôle préalable des enregistrements 3xx avant intégration
+Mehdi Kacem;2026-08-11;RUN;INC-2026-029;2.5;Analyse et correction
+Sophie Leroux;2026-08-11;EVOL;CHG-2026-018;2.0;Tableau de bord Grafana du lag Kafka
+Sophie Leroux;2026-08-11;RUN;;2.0;Support N2/N3 et correctifs
+Julien Marchand;2026-08-12;EVOL;CHG-2026-013;6.0;Reprise automatique des lots en erreur (étape CALCUL)
+Julien Marchand;2026-08-12;RUN;INC-2026-081;1.0;Analyse et correction
+Karim Ouali;2026-08-12;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-08-12;RUN;;7.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-08-12;EVOL;INC-2026-059;3;Correctif flux (saisi en EVOL)
+Sophie Leroux;2026-08-12;MCO;;4.0;Support N2/N3 et correctifs
+Julien Marchand;2026-08-13;EVOL;CHG-2026-013;6.0;Reprise automatique des lots en erreur (étape CALCUL)
+Julien Marchand;2026-08-13;RUN;INC-2026-100;1.0;Analyse et correction
+Karim Ouali;2026-08-13;MCO;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-08-13;RUN;INC-2026-041;7.0;Analyse et correction
+Sophie Leroux;2026-08-13;RUN;INC-2026-017;4.0;Analyse et correction
+Julien Marchand;2026-08-14;EVOL;CHG-2026-013;6.0;Reprise automatique des lots en erreur (étape CALCUL)
+Julien Marchand;2026-08-14;INTERNAL;;1.5;Réunion d’équipe / veille
+Karim Ouali;2026-08-14;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-08-14;RUN;INC-2026-029;7.0;Analyse et correction
+Sophie Leroux;2026-08-14;INTERNAL;;1.5;Réunion d’équipe / veille
+Sophie Leroux;2026-08-14;MCO;INC-2026-078;2.5;Analyse et correction
+Amira Trabelsi;2026-08-17;UO;CHG-2026-032;2.0;Notification e-mail à l’adhérent lors d’un remboursement
+Amira Trabelsi;2026-08-17;RUN;INC-2026-073;5.0;Analyse et correction
+Julien Marchand;2026-08-17;EVOL;CHG-2026-013;6.0;Reprise automatique des lots en erreur (étape CALCUL)
+Julien Marchand;2026-08-17;RUN;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-08-17;MCO;INC-2026-054;3.0;Analyse et correction
+Mehdi Kacem;2026-08-17;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-08-17;MCO;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-08-18;UO;CHG-2026-032;2.0;Notification e-mail à l’adhérent lors d’un remboursement
+Amira Trabelsi;2026-08-18;RUN;INC-2026-001;5.0;Analyse et correction
+Julien Marchand;2026-08-18;EVOL;CHG-2026-013;6.0;Reprise automatique des lots en erreur (étape CALCUL)
+Julien Marchand;2026-08-18;MCO;;1.0;Support N2/N3 et correctifs
+Karim Ouali;2026-08-18;MCO;INC-2026-071;3.0;Analyse et correction
+Mehdi Kacem;2026-08-18;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-08-18;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-08-19;UO;CHG-2026-032;2.0;Notification e-mail à l’adhérent lors d’un remboursement
+Amira Trabelsi;2026-08-19;RUN;INC-2026-039;5.0;Analyse et correction
+Julien Marchand;2026-08-19;EVOL;CHG-2026-013;6.0;Reprise automatique des lots en erreur (étape CALCUL)
+Julien Marchand;2026-08-19;MCO;INC-2026-003;1.0;Analyse et correction
+Julien Marchand;2026-08-19;EVOL;;3;Régie — étude (sans ticket)
+Karim Ouali;2026-08-19;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-08-19;RUN;INC-2026-035;7.0;Analyse et correction
+Sophie Leroux;2026-08-19;RUN;INC-2026-017;4.0;Analyse et correction
+Amira Trabelsi;2026-08-20;UO;CHG-2026-032;2.0;Notification e-mail à l’adhérent lors d’un remboursement
+Amira Trabelsi;2026-08-20;RUN;INC-2026-048;5.0;Analyse et correction
+Julien Marchand;2026-08-20;EVOL;CHG-2026-013;1.5;Reprise automatique des lots en erreur (étape CALCUL)
+Julien Marchand;2026-08-20;RUN;INC-2026-081;5.5;Analyse et correction
+Karim Ouali;2026-08-20;RUN;INC-2026-049;3.0;Analyse et correction
+Mehdi Kacem;2026-08-20;RUN;INC-2026-007;7.0;Analyse et correction
+Sophie Leroux;2026-08-20;MCO;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-08-21;UO;CHG-2026-032;2.0;Notification e-mail à l’adhérent lors d’un remboursement
+Amira Trabelsi;2026-08-21;INTERNAL;;1.5;Réunion d’équipe / veille
+Amira Trabelsi;2026-08-21;RUN;;3.5;Support N2/N3 et correctifs
+Julien Marchand;2026-08-21;RUN;INC-2026-094;7.0;Analyse et correction
+Karim Ouali;2026-08-21;RUN;INC-2026-027;3.0;Analyse et correction
+Mehdi Kacem;2026-08-21;MCO;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-08-21;INTERNAL;;1.5;Réunion d’équipe / veille
+Sophie Leroux;2026-08-21;RUN;INC-2026-078;2.5;Analyse et correction
+Amira Trabelsi;2026-08-24;UO;CHG-2026-032;2.0;Notification e-mail à l’adhérent lors d’un remboursement
+Amira Trabelsi;2026-08-24;RUN;INC-2026-004;5.0;Analyse et correction
+Julien Marchand;2026-08-24;RUN;INC-2026-003;7.0;Analyse et correction
+Karim Ouali;2026-08-24;MCO;INC-2026-079;3.0;Analyse et correction
+Nadia Bensalem;2026-08-24;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-08-24;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-08-25;UO;CHG-2026-032;1.5;Notification e-mail à l’adhérent lors d’un remboursement
+Amira Trabelsi;2026-08-25;MCO;;5.5;Support N2/N3 et correctifs
+Amira Trabelsi;2026-08-25;EVOL;CHG-2026-003;3;Finitions (régie)
+Julien Marchand;2026-08-25;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-08-25;RUN;;3.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-08-25;MCO;INC-2026-057;7.0;Analyse et correction
+Sophie Leroux;2026-08-25;RUN;INC-2026-018;4.0;Analyse et correction
+Amira Trabelsi;2026-08-26;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-08-26;RUN;INC-2026-097;7.0;Analyse et correction
+Karim Ouali;2026-08-26;RUN;;3.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-08-26;RUN;INC-2026-042;7.0;Analyse et correction
+Nadia Bensalem;2026-08-26;EVOL;CHG-2026-011;5;Historisation des avenants — soirée
+Sophie Leroux;2026-08-26;MCO;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-08-27;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-08-27;RUN;INC-2026-084;7.0;Analyse et correction
+Karim Ouali;2026-08-27;RUN;INC-2026-054;3.0;Analyse et correction
+Nadia Bensalem;2026-08-27;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-08-27;RUN;INC-2026-019;4.0;Analyse et correction
+Amira Trabelsi;2026-08-28;RUN;INC-2026-020;7.0;Analyse et correction
+Julien Marchand;2026-08-28;RUN;INC-2026-015;7.0;Analyse et correction
+Karim Ouali;2026-08-28;INTERNAL;;1.5;Réunion d’équipe / veille
+Karim Ouali;2026-08-28;RUN;;1.5;Support N2/N3 et correctifs
+Mehdi Kacem;2026-08-28;EVOL;CHG-2026-021;2.0;Rapport quotidien des rejets NOEMIE par caisse
+Mehdi Kacem;2026-08-28;INTERNAL;;1.5;Réunion d’équipe / veille
+Mehdi Kacem;2026-08-28;RUN;INC-2026-026;3.5;Analyse et correction
+Nadia Bensalem;2026-08-28;INTERNAL;;1.5;Réunion d’équipe / veille
+Nadia Bensalem;2026-08-28;RUN;;5.5;Support N2/N3 et correctifs
+Sophie Leroux;2026-08-28;RUN;INC-2026-078;4.0;Analyse et correction
+Amira Trabelsi;2026-08-31;RUN;INC-2026-096;7.0;Analyse et correction
+Julien Marchand;2026-08-31;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-08-31;RUN;INC-2026-027;3.0;Analyse et correction
+Mehdi Kacem;2026-08-31;EVOL;CHG-2026-021;1.0;Rapport quotidien des rejets NOEMIE par caisse
+Mehdi Kacem;2026-08-31;RUN;;6.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-08-31;RUN;INC-2026-040;7.0;Analyse et correction
+Sophie Leroux;2026-08-31;MCO;INC-2026-034;4.0;Analyse et correction
+Amira Trabelsi;2026-09-01;MCO;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-09-01;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-09-01;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-09-01;RUN;INC-2026-002;7.0;Analyse et correction
+Nadia Bensalem;2026-09-01;MCO;INC-2026-042;7.0;Analyse et correction
+Sophie Leroux;2026-09-01;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-09-02;MCO;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-09-02;RUN;INC-2026-083;7.0;Analyse et correction
+Karim Ouali;2026-09-02;RUN;INC-2026-025;3.0;Analyse et correction
+Mehdi Kacem;2026-09-02;RUN;INC-2026-059;7.0;Analyse et correction
+Nadia Bensalem;2026-09-02;MCO;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-09-02;RUN;INC-2026-038;4.0;Analyse et correction
+Amira Trabelsi;2026-09-03;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-09-03;RUN;INC-2026-084;7.0;Analyse et correction
+Karim Ouali;2026-09-03;RUN;INC-2026-054;3.0;Analyse et correction
+Mehdi Kacem;2026-09-03;RUN;INC-2026-029;7.0;Analyse et correction
+Nadia Bensalem;2026-09-03;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-09-03;MCO;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-09-04;RUN;INC-2026-022;7.0;Analyse et correction
+Julien Marchand;2026-09-04;INTERNAL;;1.5;Réunion d’équipe / veille
+Julien Marchand;2026-09-04;RUN;;5.5;Support N2/N3 et correctifs
+Karim Ouali;2026-09-04;INTERNAL;;1.5;Réunion d’équipe / veille
+Karim Ouali;2026-09-04;MCO;INC-2026-049;1.5;Analyse et correction
+Mehdi Kacem;2026-09-04;MCO;INC-2026-006;7.0;Analyse et correction
+Nadia Bensalem;2026-09-04;RUN;INC-2026-082;7.0;Analyse et correction
+Sophie Leroux;2026-09-04;MCO;INC-2026-038;4.0;Analyse et correction
+Amira Trabelsi;2026-09-07;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-09-07;MCO;INC-2026-003;7.0;Analyse et correction
+Karim Ouali;2026-09-07;RUN;INC-2026-071;3.0;Analyse et correction
+Mehdi Kacem;2026-09-07;MCO;INC-2026-041;7.0;Analyse et correction
+Nadia Bensalem;2026-09-07;RUN;INC-2026-091;7.0;Analyse et correction
+Sophie Leroux;2026-09-07;RUN;INC-2026-062;4.0;Analyse et correction
+Amira Trabelsi;2026-09-08;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-09-08;RUN;INC-2026-094;7.0;Analyse et correction
+Karim Ouali;2026-09-08;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-09-08;MCO;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-09-08;RUN;INC-2026-090;7.0;Analyse et correction
+Sophie Leroux;2026-09-08;MCO;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-09-09;RUN;INC-2026-048;7.0;Analyse et correction
+Julien Marchand;2026-09-09;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-09-09;RUN;INC-2026-027;3.0;Analyse et correction
+Mehdi Kacem;2026-09-09;RUN;INC-2026-010;7.0;Analyse et correction
+Nadia Bensalem;2026-09-09;MCO;INC-2026-101;7.0;Analyse et correction
+Sophie Leroux;2026-09-09;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-09-10;RUN;INC-2026-022;7.0;Analyse et correction
+Julien Marchand;2026-09-10;RUN;INC-2026-064;7.0;Analyse et correction
+Karim Ouali;2026-09-10;RUN;INC-2026-049;3.0;Analyse et correction
+Mehdi Kacem;2026-09-10;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-09-10;MCO;INC-2026-061;7.0;Analyse et correction
+Sophie Leroux;2026-09-10;RUN;INC-2026-052;4.0;Analyse et correction
+Amira Trabelsi;2026-09-11;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-09-11;INTERNAL;;1.5;Réunion d’équipe / veille
+Julien Marchand;2026-09-11;MCO;;5.5;Support N2/N3 et correctifs
+Karim Ouali;2026-09-11;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-09-11;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-09-11;INTERNAL;;1.5;Réunion d’équipe / veille
+Nadia Bensalem;2026-09-11;RUN;INC-2026-072;5.5;Analyse et correction
+Sophie Leroux;2026-09-11;RUN;INC-2026-018;4.0;Analyse et correction
+Amira Trabelsi;2026-09-14;MCO;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-09-14;RUN;INC-2026-097;7.0;Analyse et correction
+Karim Ouali;2026-09-14;RUN;INC-2026-027;3.0;Analyse et correction
+Mehdi Kacem;2026-09-14;RUN;INC-2026-010;7.0;Analyse et correction
+Nadia Bensalem;2026-09-14;RUN;INC-2026-033;7.0;Analyse et correction
+Sophie Leroux;2026-09-14;RUN;INC-2026-078;4.0;Analyse et correction
+Amira Trabelsi;2026-09-15;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-09-15;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-09-15;RUN;INC-2026-050;3.0;Analyse et correction
+Mehdi Kacem;2026-09-15;RUN;INC-2026-008;7.0;Analyse et correction
+Nadia Bensalem;2026-09-15;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-09-15;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-09-16;MCO;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-09-16;RUN;INC-2026-012;7.0;Analyse et correction
+Karim Ouali;2026-09-16;MCO;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-09-16;RUN;INC-2026-026;7.0;Analyse et correction
+Nadia Bensalem;2026-09-16;RUN;INC-2026-058;7.0;Analyse et correction
+Sophie Leroux;2026-09-16;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-09-17;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-09-17;RUN;INC-2026-094;7.0;Analyse et correction
+Karim Ouali;2026-09-17;RUN;INC-2026-027;3.0;Analyse et correction
+Mehdi Kacem;2026-09-17;RUN;INC-2026-005;7.0;Analyse et correction
+Nadia Bensalem;2026-09-17;RUN;;7.0;Support N2/N3 et correctifs
+Sophie Leroux;2026-09-17;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-09-18;RUN;INC-2026-070;7.0;Analyse et correction
+Julien Marchand;2026-09-18;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-09-18;MCO;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-09-18;RUN;INC-2026-005;7.0;Analyse et correction
+Nadia Bensalem;2026-09-18;RUN;INC-2026-075;7.0;Analyse et correction
+Sophie Leroux;2026-09-18;INTERNAL;;1.5;Réunion d’équipe / veille
+Sophie Leroux;2026-09-18;MCO;;2.5;Support N2/N3 et correctifs
+Amira Trabelsi;2026-09-21;RUN;;7.0;Support N2/N3 et correctifs
+Julien Marchand;2026-09-21;RUN;INC-2026-064;7.0;Analyse et correction
+Karim Ouali;2026-09-21;RUN;INC-2026-049;3.0;Analyse et correction
+Mehdi Kacem;2026-09-21;RUN;INC-2026-005;7.0;Analyse et correction
+Nadia Bensalem;2026-09-21;RUN;INC-2026-036;7.0;Analyse et correction
+Sophie Leroux;2026-09-21;RUN;;4.0;Support N2/N3 et correctifs
+Amira Trabelsi;2026-09-22;RUN;INC-2026-070;7.0;Analyse et correction
+Julien Marchand;2026-09-22;RUN;;7.0;Support N2/N3 et correctifs
+Karim Ouali;2026-09-22;RUN;;3.0;Support N2/N3 et correctifs
+Mehdi Kacem;2026-09-22;RUN;;7.0;Support N2/N3 et correctifs
+Nadia Bensalem;2026-09-22;RUN;INC-2026-047;7.0;Analyse et correction
+Sophie Leroux;2026-09-22;RUN;INC-2026-052;4.0;Analyse et correction

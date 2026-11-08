@@ -1,0 +1,167 @@
+# Production deployment: single server, Docker Compose, Caddy for automatic HTTPS (Let's Encrypt).
+#
+#   cp .env.prod.example .env.prod
+#   # edit .env.prod: DOMAIN, AUTH_DOMAIN, ACME_EMAIL, POSTGRES_PASSWORD, KEYCLOAK_ADMIN_PASSWORD,
+#   # LLM_API_KEY, KEYCLOAK_ADMIN_CLIENT_SECRET (see README "Production deployment")
+#   docker compose -f docker-compose.prod.yml --env-file .env.prod up -d --build
+#
+# Nothing but Caddy (80/443) is published to the host; Postgres, Keycloak and the backend are
+# reachable only on the internal Docker network. Scale by adding more `backend` replicas
+# behind Caddy — but see README for the rate-limiter caveat (in-memory, per replica) first.
+name: deliveryops-prod
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: deliveryops
+      POSTGRES_USER: deliveryops
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env.prod}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./infra/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U deliveryops"]
+      interval: 5s
+      retries: 20
+    deploy:
+      resources:
+        limits: { cpus: "2", memory: 2g }
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.3
+    restart: unless-stopped
+    # production mode (not start-dev): imports the realm once, then serves normally.
+    # The realm template ships with no demo users/passwords — create the first real user via the
+    # Admin Console after first boot (README "Production deployment").
+    command: start --import-realm
+    environment:
+      KC_BOOTSTRAP_ADMIN_USERNAME: admin
+      KC_BOOTSTRAP_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:?set KEYCLOAK_ADMIN_PASSWORD in .env.prod}
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://postgres:5432/keycloak
+      KC_DB_USERNAME: deliveryops
+      KC_DB_PASSWORD: ${POSTGRES_PASSWORD:?}
+      KC_HOSTNAME: https://${AUTH_DOMAIN:?set AUTH_DOMAIN in .env.prod}
+      KC_HOSTNAME_STRICT: "true"
+      KC_HTTP_ENABLED: "true"  # plain HTTP internally; Caddy terminates TLS in front of it
+      KC_PROXY_HEADERS: xforwarded
+      KC_HEALTH_ENABLED: "true"
+    volumes:
+      - ./infra/keycloak/realm-deliveryops.prod.json:/opt/keycloak/data/import/realm-deliveryops.prod.json:ro
+    healthcheck:
+      # Keycloak 26 serves health on the management port (9000), not the main HTTP port (8080).
+      test: ["CMD-SHELL", "exec 3<>/dev/tcp/localhost/9000 && echo -e 'GET /health/ready HTTP/1.1\\r\\nHost: localhost\\r\\nConnection: close\\r\\n\\r\\n' >&3 && grep -q 'UP' <&3"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 40s
+    depends_on:
+      postgres: { condition: service_healthy }
+    deploy:
+      resources:
+        limits: { cpus: "2", memory: 1500m }
+
+  backend:
+    build: ./backend
+    command: ["api"]
+    restart: unless-stopped
+    environment:
+      ENVIRONMENT: production
+      ROLE: api
+      DATABASE_URL: postgresql+psycopg://deliveryops:${POSTGRES_PASSWORD:?}@postgres:5432/deliveryops
+      AUTH_MODE: keycloak
+      KEYCLOAK_ISSUER: https://${AUTH_DOMAIN:?}/realms/deliveryops
+      KEYCLOAK_JWKS_URL: http://keycloak:8080/realms/deliveryops/protocol/openid-connect/certs
+      KEYCLOAK_PUBLIC_URL: https://${AUTH_DOMAIN:?}
+      KEYCLOAK_ADMIN_BASE_URL: http://keycloak:8080
+      KEYCLOAK_ADMIN_CLIENT_SECRET: ${KEYCLOAK_ADMIN_CLIENT_SECRET:-}
+      CORS_ORIGINS: https://${DOMAIN:?set DOMAIN in .env.prod}
+      FRONTEND_URL: https://${DOMAIN:?}
+      SEED_DEMO_DATA: "false"
+      LLM_MODE: ${LLM_MODE:-auto}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://integrate.api.nvidia.com/v1}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL_REASONING: ${LLM_MODEL_REASONING:-meta/llama-3.3-70b-instruct}
+      LLM_MODEL_AGENT: ${LLM_MODEL_AGENT:-meta/llama-3.3-70b-instruct}
+      LLM_MODEL_FAST: ${LLM_MODEL_FAST:-meta/llama-3.1-8b-instruct}
+      TEAMS_WEBHOOK_URL: ${TEAMS_WEBHOOK_URL:-}
+      WATCH_ENABLED: "false"  # the dedicated backend-worker container runs the watch loop
+    volumes:
+      # Serve the desktop installer(s) placed here at /api/download/desktop (read-only).
+      - ./backend/downloads:/app/downloads:ro
+    depends_on:
+      postgres: { condition: service_healthy }
+    deploy:
+      resources:
+        limits: { cpus: "2", memory: 1g }
+
+  backend-worker:
+    build: ./backend
+    command: ["worker"]
+    restart: unless-stopped
+    environment:
+      ENVIRONMENT: production
+      ROLE: worker
+      DATABASE_URL: postgresql+psycopg://deliveryops:${POSTGRES_PASSWORD:?}@postgres:5432/deliveryops
+      AUTH_MODE: keycloak
+      KEYCLOAK_ISSUER: https://${AUTH_DOMAIN:?}/realms/deliveryops
+      # The worker serves no HTTP, but it loads the same Settings and its production guard requires a
+      # non-localhost CORS_ORIGINS, so mirror the backend's public origin here.
+      CORS_ORIGINS: https://${DOMAIN:?}
+      SEED_DEMO_DATA: "false"
+      LLM_MODE: ${LLM_MODE:-auto}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://integrate.api.nvidia.com/v1}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL_REASONING: ${LLM_MODEL_REASONING:-meta/llama-3.3-70b-instruct}
+      LLM_MODEL_AGENT: ${LLM_MODEL_AGENT:-meta/llama-3.3-70b-instruct}
+      LLM_MODEL_FAST: ${LLM_MODEL_FAST:-meta/llama-3.1-8b-instruct}
+      TEAMS_WEBHOOK_URL: ${TEAMS_WEBHOOK_URL:-}
+      WATCH_ENABLED: "true"
+      WATCH_INTERVAL_MINUTES: ${WATCH_INTERVAL_MINUTES:-15}
+      WATCH_AI_ENABLED: ${WATCH_AI_ENABLED:-true}
+      WATCH_AI_EVERY_N_CYCLES: ${WATCH_AI_EVERY_N_CYCLES:-4}
+      WATCH_AI_AGENTS: ${WATCH_AI_AGENTS:-risk}
+    healthcheck: { disable: true }  # no HTTP server in this role
+    depends_on:
+      postgres: { condition: service_healthy }
+      backend: { condition: service_healthy }  # migrations run in backend's entrypoint first
+    deploy:
+      resources:
+        limits: { cpus: "1", memory: 512m }
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    depends_on:
+      backend: { condition: service_healthy }
+    deploy:
+      resources:
+        limits: { cpus: "1", memory: 256m }
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    environment:
+      DOMAIN: ${DOMAIN:?}
+      AUTH_DOMAIN: ${AUTH_DOMAIN:?}
+      ACME_EMAIL: ${ACME_EMAIL:?set ACME_EMAIL in .env.prod (Let's Encrypt account contact)}
+    volumes:
+      - ./infra/caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [frontend, keycloak]
+
+volumes:
+  pgdata:
+    name: deliveryops-prod-pgdata
+  caddy_data:
+    name: deliveryops-prod-caddy-data
+  caddy_config:
+    name: deliveryops-prod-caddy-config
+
+networks:
+  default:
+    name: deliveryops-prod-net

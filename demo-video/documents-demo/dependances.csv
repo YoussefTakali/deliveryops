@@ -1,0 +1,12 @@
+﻿source;target;kind;description
+EspaceAdherent;AdhesionCore;api;Contrats, garanties, adhésion en ligne (REST)
+EspaceAdherent;PrestaFlux;api;Consultation des remboursements (REST)
+EspaceAdherent;GEDAdhesion;api;Dépôt des pièces justificatives (CMIS)
+AdhesionCore;RefPersonnes;soap;Vérification des bénéficiaires
+PrestaFlux;AdhesionCore;database;Lecture des contrats (vue matérialisée)
+PrestaFlux;TiersPayantHub;kafka;Décomptes tiers payant (topic tp.decomptes)
+FluxNoemie;PrestaFlux;batch;Décomptes NOEMIE 580 (fichiers quotidiens)
+PrestaFlux;EditiqueSante;mq;Décomptes et courriers (IBM MQ)
+AdhesionCore;EditiqueSante;mq;Cartes tiers payant et attestations
+TiersPayantHub;RefPersonnes;api;Identification des bénéficiaires
+DecisionnelSante;PrestaFlux;database;Extraction nocturne Oracle

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>DeliveryOps</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Inline (no extra request) so the branded splash below paints on the very first frame, before
+       the JS bundle is even fetched. Angular clears <app-root>'s contents when it bootstraps, so
+       this disappears on its own with no cleanup code. Colours mirror styles.css's light/dark
+       tokens rather than referencing them, since that stylesheet hasn't loaded at this point. -->
+  <style>
+    .dm-splash {
+      position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+      background: #f4f6f9; color: #16202e;
+      font: 15px/1.5 "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .dm-splash-inner { display: flex; align-items: center; gap: 12px; font-weight: 600; }
+    .dm-splash-logo { width: 30px; height: 30px; border-radius: 8px; background: #3553d6; flex: none; }
+    .dm-splash-dot { width: 13px; height: 13px; border: 2px solid rgba(53,83,214,.25); border-top-color: #3553d6;
+      border-radius: 50%; animation: dm-spin .8s linear infinite; }
+    @keyframes dm-spin { to { transform: rotate(360deg); } }
+    @media (prefers-color-scheme: dark) {
+      .dm-splash { background: #0c111b; color: #e6eaf2; }
+      .dm-splash-dot { border-color: rgba(125,149,255,.25); border-top-color: #7d95ff; }
+    }
+    /* Desktop call-copilot overlay (transparent frameless window): no opaque full-window splash. */
+    html.dm-overlay, html.dm-overlay body, html.dm-overlay .dm-splash { background: transparent !important; }
+  </style>
+  <script>if (/[?&]overlay=1/.test(location.search)) document.documentElement.classList.add('dm-overlay');</script>
+</head>
+<body>
+  <app-root>
+    <div class="dm-splash">
+      <div class="dm-splash-inner">
+        <span class="dm-splash-logo"></span>
+        <span>DeliveryOps</span>
+        <span class="dm-splash-dot"></span>
+      </div>
+    </div>
+  </app-root>
+</body>
+</html>

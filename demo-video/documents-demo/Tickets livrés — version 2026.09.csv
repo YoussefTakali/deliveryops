@@ -1,0 +1,9 @@
+﻿ref;type;application;titre;statut;livré le
+CHG-2026-013;évolution;PrestaFlux;Reprise automatique des lots en erreur (étape CALCUL);livré;2026-08-24
+CHG-2026-030;évolution;DecisionnelSante;Décalage de l’extraction nocturne à 1 h;livré;2026-09-02
+INC-2026-008;correctif P2;FluxNoemie;Rejet du flux NOEMIE — enregistrements 3xx non conformes;corrigé;2026-08-20
+INC-2026-013;correctif P2;PrestaFlux;Liquidation bloquée — lot en erreur;corrigé;2026-08-25
+INC-2026-088;correctif P2;RefPersonnes;Temps de réponse SOAP supérieur à 5 s;corrigé;2026-08-26
+INC-2026-018;correctif P2;TiersPayantHub;Consommateur Kafka en retard (lag) — décomptes tiers payant en attente;corrigé;2026-08-31
+INC-2026-054;correctif P2;GEDAdhesion;Dépôt de pièces impossible — erreur CMIS 500;corrigé;2026-09-01
+INC-2026-009;correctif P2;FluxNoemie;Rejet du flux NOEMIE — enregistrements 3xx non conformes;corrigé;2026-09-02

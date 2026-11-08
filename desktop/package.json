@@ -1,0 +1,71 @@
+{
+  "name": "deliveryops-desktop",
+  "version": "0.1.0",
+  "description": "DeliveryOps desktop shell — native window over the web app, with local file access and a floating Teams-call assistant.",
+  "author": "DeliveryOps",
+  "homepage": "http://localhost:4300",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node src/test-local-files.js",
+    "dist": "electron-builder --win nsis",
+    "dist:portable": "electron-builder --win portable",
+    "dist:all": "electron-builder --win nsis portable",
+    "dist:linux": "electron-builder --linux AppImage deb rpm",
+    "dist:appimage": "electron-builder --linux AppImage"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.deliveryops.desktop",
+    "productName": "DeliveryOps",
+    "artifactName": "${productName} Setup ${version}.${ext}",
+    "files": [
+      "src/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "DeliveryOps"
+    },
+    "npmRebuild": false,
+    "asarUnpack": [
+      "node_modules/uiohook-napi/**"
+    ],
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm"
+      ],
+      "category": "Office",
+      "artifactName": "${productName}-${version}-${arch}.${ext}",
+      "maintainer": "DeliveryOps <contact@deliveryops.local>",
+      "synopsis": "DeliveryOps desktop shell",
+      "desktop": {
+        "entry": {
+          "StartupWMClass": "DeliveryOps"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "uiohook-napi": "^1.5.5"
+  }
+}

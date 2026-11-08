@@ -1,0 +1,24 @@
+{
+	email {$ACME_EMAIL}
+}
+
+# Main app — Angular SPA + API (the frontend container's own nginx proxies /api/* to the backend)
+{$DOMAIN} {
+	encode gzip
+	reverse_proxy frontend:80
+
+	header {
+		Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "same-origin"
+	}
+}
+
+# Keycloak needs its own public origin: the browser talks to it directly for the OIDC login
+# redirect and token exchange, it isn't proxied through the frontend.
+{$AUTH_DOMAIN} {
+	encode gzip
+	reverse_proxy keycloak:8080
+
+	header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+}

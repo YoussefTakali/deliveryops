@@ -1,0 +1,105 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:15.769
+<v Isabelle Fontaine>Bonjour à tous, merci d'être là. On est le 17 septembre, c'est le comité de suivi de septembre. On a quatre points : les incidents du mois, le respect des SLA, deux demandes de la direction des prestations, et les actions.</v>
+
+2
+00:00:16.569 --> 00:00:23.492
+<v Sarah Benali>Bonjour Isabelle, bonjour Marc. De notre côté Nadia et Julien sont avec moi. On commence par les incidents.</v>
+
+3
+00:00:24.292 --> 00:00:43.523
+<v Nadia Bensalem>Sur le mois, on a eu un P1 le 9 septembre : plus aucun adhérent ne pouvait se connecter, les codes SMS n'étaient plus émis. La cause, c'est le quota mensuel du fournisseur SMS qui était épuisé. On a basculé sur le fournisseur de secours en trois heures et demie.</v>
+
+4
+00:00:44.323 --> 00:00:55.862
+<v Marc Delorme>Trois heures et demie, c'est dans le délai P1 mais on a eu deux mille appels au service adhérents ce matin-là. Est-ce qu'on peut éviter que ça se reproduise ?</v>
+
+5
+00:00:56.662 --> 00:01:11.662
+<v Nadia Bensalem>Oui. Deux choses : une alerte quand on atteint quatre-vingts pour cent du quota, et à moyen terme la bascule du second facteur vers la notification push, qui est dans le cahier des charges de l'espace adhérent version deux.</v>
+
+6
+00:01:12.462 --> 00:01:17.846
+<v Isabelle Fontaine>Très bien. Nadia, vous nous faites un post-mortem écrit pour le vingt-cinq septembre ?</v>
+
+7
+00:01:18.646 --> 00:01:22.646
+<v Nadia Bensalem>C'est noté, post-mortem pour le vingt-cinq.</v>
+
+8
+00:01:23.446 --> 00:01:43.446
+<v Julien Marchand>Ensuite les rejets du flux NOEMIE. C'est la sixième fois depuis juin : des enregistrements de type trois cents non conformes envoyés par une caisse. À chaque fois la reprise est manuelle, et depuis le départ de Monsieur Perrin c'est Mehdi qui l'a reprise, avec un délai P1 dépassé le 21 juillet.</v>
+
+9
+00:01:44.246 --> 00:01:50.785
+<v Marc Delorme>On ne peut pas continuer comme ça. Le service prestations découvre le rejet quand les gestionnaires appellent.</v>
+
+10
+00:01:51.585 --> 00:02:06.200
+<v Sarah Benali>On propose d'ouvrir un problème, au sens ITIL, pour traiter la cause racine avec la caisse émettrice, et de mettre en place un contrôle préalable des enregistrements avant intégration. Le contrôle est déjà chiffré en unité d'œuvre moyenne.</v>
+
+11
+00:02:07.000 --> 00:02:14.308
+<v Isabelle Fontaine>D'accord pour ouvrir le problème. Marc, vous pouvez transmettre la liste des cas de rejets à la caisse ?</v>
+
+12
+00:02:15.108 --> 00:02:19.723
+<v Marc Delorme>Oui, je vous envoie la liste des rejets pour le vingt-six septembre.</v>
+
+13
+00:02:20.523 --> 00:02:34.754
+<v Julien Marchand>Dernier incident notable : le lot de liquidation en erreur du 17 août. Là aussi la reprise est manuelle. On a commencé la reprise automatique à l'étape calcul, c'est dans le backlog, je vise le neuf octobre.</v>
+
+14
+00:02:35.554 --> 00:02:39.554
+<v Isabelle Fontaine>Parfait. Passons aux SLA.</v>
+
+15
+00:02:40.354 --> 00:02:58.046
+<v Sarah Benali>Sur août, le P1 est tenu, mais le P2 est à soixante-dix-huit pour cent pour une cible de quatre-vingt-quinze. Ce sont surtout les rejets NOEMIE et le lag Kafka du tiers payant qui dépassent les huit heures. Contractuellement, ça représente une pénalité potentielle sur le forfait.</v>
+
+16
+00:02:58.846 --> 00:03:05.000
+<v Marc Delorme>Pour le lag Kafka, les pharmacies nous relancent le lundi matin. Qu'est-ce qui est prévu ?</v>
+
+17
+00:03:05.800 --> 00:03:16.569
+<v Nadia Bensalem>Sophie met en place une alerte sur le lag avec un seuil à cinquante mille messages, et une montée automatique du nombre de consommateurs. Livraison le deux octobre.</v>
+
+18
+00:03:17.369 --> 00:03:21.369
+<v Isabelle Fontaine>Bien. On passe aux deux demandes.</v>
+
+19
+00:03:22.169 --> 00:03:34.092
+<v Marc Delorme>Première demande : la direction voudrait migrer la GED Alfresco vers SharePoint d'ici décembre, avec reprise de toutes les pièces justificatives. Est-ce que vous pouvez le prendre dans le forfait ?</v>
+
+20
+00:03:34.892 --> 00:03:50.662
+<v Sarah Benali>Une migration de la GED vers une autre plateforme est explicitement hors périmètre du contrat, article deux point un. On peut la réaliser, mais sur un devis séparé. Je vous propose de vous envoyer une proposition d'ici la fin du mois.</v>
+
+21
+00:03:51.462 --> 00:03:56.077
+<v Isabelle Fontaine>C'est ce que je pensais. Envoyez la proposition, on arbitrera en COPIL.</v>
+
+22
+00:03:56.877 --> 00:04:06.877
+<v Marc Delorme>Deuxième demande : le paiement de la cotisation en trois fois sans frais pour les adhésions individuelles. Les commerciaux le demandent pour la campagne de décembre.</v>
+
+23
+00:04:07.677 --> 00:04:19.600
+<v Sarah Benali>Celle-là est dans le périmètre des évolutions. On la chiffre à partir de l'historique des évolutions similaires, et on présente le chiffrage au COPIL. Je vous l'envoie pour le trente septembre.</v>
+
+24
+00:04:20.400 --> 00:04:40.015
+<v Isabelle Fontaine>Très bien. On récapitule les décisions : ouverture d'un problème sur les rejets NOEMIE, alerte sur le lag Kafka, devis séparé pour la migration de la GED, chiffrage du paiement en trois fois. Et pour le COPIL du quinze octobre, je voudrais le support avec les indicateurs d'août et de septembre.</v>
+
+25
+00:04:40.815 --> 00:04:45.431
+<v Sarah Benali>On vous enverra le pack COPIL une semaine avant. Merci à tous.</v>
+
+26
+00:04:46.231 --> 00:04:50.231
+<v Isabelle Fontaine>Merci, bonne journée.</v>

@@ -1,0 +1,8 @@
+# ignore built installers, keep the folder + README
+*.exe
+*.msi
+*.dmg
+*.AppImage
+*.zip
+*.deb
+*.rpm

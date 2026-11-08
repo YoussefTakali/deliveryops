@@ -1,0 +1,69 @@
+{
+  "realm": "deliveryops",
+  "enabled": true,
+  "displayName": "DeliveryOps",
+  "sslRequired": "external",
+  "roles": {
+    "realm": [
+      { "name": "director", "description": "Delivery director: all clients, can validate, can administer users" },
+      { "name": "delivery_manager", "description": "Delivery manager: assigned clients, can validate" },
+      { "name": "consultant", "description": "Consultant: assigned clients, read and ask only" }
+    ]
+  },
+  "components": {
+    "org.keycloak.userprofile.UserProfileProvider": [
+      {
+        "providerId": "declarative-user-profile",
+        "subComponents": {},
+        "config": {
+          "kc.user.profile.config": ["{\"unmanagedAttributePolicy\":\"ENABLED\",\"attributes\":[{\"name\":\"username\",\"permissions\":{\"view\":[\"admin\",\"user\"],\"edit\":[\"admin\"]}},{\"name\":\"email\",\"permissions\":{\"view\":[\"admin\",\"user\"],\"edit\":[\"admin\",\"user\"]}},{\"name\":\"firstName\",\"permissions\":{\"view\":[\"admin\",\"user\"],\"edit\":[\"admin\",\"user\"]}},{\"name\":\"lastName\",\"permissions\":{\"view\":[\"admin\",\"user\"],\"edit\":[\"admin\",\"user\"]}}]}"]
+        }
+      }
+    ]
+  },
+  "clients": [
+    {
+      "clientId": "deliveryops-app",
+      "name": "DeliveryOps web app",
+      "enabled": true,
+      "publicClient": true,
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": false,
+      "redirectUris": ["https://CHANGE_ME.example.com/*"],
+      "webOrigins": ["https://CHANGE_ME.example.com"],
+      "attributes": { "pkce.code.challenge.method": "S256" },
+      "protocolMappers": [
+        {
+          "name": "api-audience",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-audience-mapper",
+          "config": { "included.custom.audience": "deliveryops-api", "access.token.claim": "true", "id.token.claim": "false" }
+        },
+        {
+          "name": "clients",
+          "protocol": "openid-connect",
+          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "config": { "user.attribute": "clients", "claim.name": "clients", "jsonType.label": "String", "multivalued": "true", "access.token.claim": "true", "id.token.claim": "true", "userinfo.token.claim": "true" }
+        }
+      ]
+    },
+    {
+      "clientId": "deliveryops-admin",
+      "name": "DeliveryOps admin API (service account)",
+      "description": "Used by the backend's in-app user administration page. Client credentials grant only — never used by browsers.",
+      "enabled": true,
+      "publicClient": false,
+      "standardFlowEnabled": false,
+      "directAccessGrantsEnabled": false,
+      "serviceAccountsEnabled": true
+    }
+  ],
+  "users": [
+    {
+      "username": "service-account-deliveryops-admin",
+      "enabled": true,
+      "serviceAccountClientId": "deliveryops-admin",
+      "clientRoles": { "realm-management": ["manage-users", "view-users", "query-users"] }
+    }
+  ]
+}

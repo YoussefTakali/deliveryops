@@ -1,0 +1,9 @@
+[
+  {"key": "GC-1", "type": "Story", "status": "Done", "summary": "Formulaire de demande de congé", "description": "Dates, type, commentaire, demi-journée. Réf. EX-01.", "labels": ["EX-01"], "epic": "Demandes"},
+  {"key": "GC-2", "type": "Story", "status": "In Progress", "summary": "Validation manager avec motif", "description": "Accepter / refuser, motif obligatoire au refus. Réf. EX-02.", "labels": ["EX-02", "EX-07"], "epic": "Validation"},
+  {"key": "GC-3", "type": "Story", "status": "To Do", "summary": "Calcul automatique du solde", "description": "Réf. EX-03.", "labels": ["EX-03"], "epic": "Soldes"},
+  {"key": "GC-4", "type": "Story", "status": "To Do", "summary": "Calendrier d'équipe", "description": "Absences validées, jours fériés par pays. Réf. EX-04, EX-05.", "labels": ["EX-04", "EX-05"], "epic": "Planning"},
+  {"key": "GC-5", "type": "Story", "status": "To Do", "summary": "Export CSV paie", "description": "Réf. EX-06.", "labels": ["EX-06"], "epic": "Paie"},
+  {"key": "GC-6", "type": "Task", "status": "Done", "summary": "Connexion SSO annuaire", "description": "Réf. EX-09.", "labels": ["EX-09"], "epic": "Sécurité"},
+  {"key": "GC-7", "type": "Bug", "status": "Open", "summary": "Solde négatif possible après annulation", "description": "Impacte EX-03 et EX-08.", "labels": ["EX-03", "EX-08"], "epic": "Soldes"}
+]

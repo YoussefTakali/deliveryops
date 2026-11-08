@@ -1,0 +1,27 @@
+langgraph>=1.2,<2
+langgraph-checkpoint-postgres>=3.1,<4
+fastapi>=0.141
+uvicorn[standard]>=0.35
+sqlalchemy>=2.0.54,<3
+psycopg[binary]>=3.2
+pgvector>=0.5
+pydantic-settings>=2.15
+email-validator>=2,<3
+openai>=2,<3
+alembic>=1.13,<2
+python-multipart>=0.0.20
+pypdf>=6
+python-docx>=1.2
+openpyxl>=3.1
+networkx>=3.4
+pyjwt[crypto]>=2.14
+argon2-cffi>=23,<26
+segno>=1.6,<2  # QR code for two-factor enrolment (pure Python, no dependencies)
+httpx>=0.28
+pytest>=8
+mcp>=2.2,<3
+python-pptx>=1.0
+faster-whisper>=1.0,<2  # local/offline speech-to-text for the call-assistant "listen to the whole call" mode
+fastembed>=0.4,<1  # local/offline multilingual embeddings for semantic search (EMBEDDING_PROVIDER=fastembed)
+onnxruntime>=1.17  # runs the WeSpeaker speaker-embedding model for call diarization (app/stt.py)
+huggingface-hub>=0.24  # fetches the speaker-embedding ONNX model on first use

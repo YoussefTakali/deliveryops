@@ -1,0 +1,16 @@
+[
+  {"key": "PC-101", "type": "Story", "status": "Done", "summary": "Connexion identifiant / mot de passe", "description": "Écran de connexion avec blocage après 5 échecs. Réf. EXF-01.", "labels": ["EXF-01"], "epic": "Authentification"},
+  {"key": "PC-102", "type": "Story", "status": "In Progress", "summary": "Double authentification par SMS", "description": "Envoi d'un code à 6 chiffres à la connexion depuis un nouvel appareil. Réf. EXF-01, EXNF-03.", "labels": ["EXF-01", "EXNF-03"], "epic": "Authentification"},
+  {"key": "PC-103", "type": "Story", "status": "Done", "summary": "Liste des contrats et garanties", "description": "Affichage des contrats auto/habitation/santé avec garanties principales. Réf. EXF-02.", "labels": ["EXF-02"], "epic": "Contrats"},
+  {"key": "PC-104", "type": "Story", "status": "To Do", "summary": "Téléchargement des attestations PDF", "description": "Génération à la demande, filigrane et horodatage. Réf. EXF-03.", "labels": ["EXF-03"], "epic": "Contrats"},
+  {"key": "PC-105", "type": "Story", "status": "In Progress", "summary": "Déclaration de sinistre avec pièces jointes", "description": "Formulaire multi-étapes, brouillon automatique, 10 pièces max. Réf. EXF-04.", "labels": ["EXF-04"], "epic": "Sinistres"},
+  {"key": "PC-106", "type": "Story", "status": "To Do", "summary": "Suivi d'avancement du sinistre", "description": "Timeline reçu / expertise / accord / indemnisé. Réf. EXF-05.", "labels": ["EXF-05", "EXF-09"], "epic": "Sinistres"},
+  {"key": "PC-107", "type": "Story", "status": "To Do", "summary": "Messagerie sécurisée avec le conseiller", "description": "Fil de discussion horodaté, pièces jointes, accusé de lecture. Réf. EXF-06.", "labels": ["EXF-06", "EXNF-03"], "epic": "Relation client"},
+  {"key": "PC-108", "type": "Story", "status": "Done", "summary": "Modification des coordonnées", "description": "Adresse validée via référentiel postal, confirmation email. Réf. EXF-07.", "labels": ["EXF-07"], "epic": "Compte"},
+  {"key": "PC-109", "type": "Story", "status": "To Do", "summary": "Paiement de cotisation par carte", "description": "Intégration PSP 3-D Secure, reçu PDF. Réf. EXF-08.", "labels": ["EXF-08", "EXNF-03"], "epic": "Paiement"},
+  {"key": "PC-110", "type": "Story", "status": "To Do", "summary": "Notifications email et push", "description": "Préférences modifiables, désabonnement en un clic. Réf. EXF-09.", "labels": ["EXF-09"], "epic": "Relation client"},
+  {"key": "PC-111", "type": "Story", "status": "To Do", "summary": "Export CSV de l'historique des paiements", "description": "Réf. EXF-10.", "labels": ["EXF-10"], "epic": "Paiement"},
+  {"key": "PC-112", "type": "Bug", "status": "Open", "summary": "Le code SMS expire trop vite sur iOS", "description": "Le code est refusé après 2 minutes au lieu de 5. Impacte EXF-01.", "labels": ["EXF-01"], "epic": "Authentification"},
+  {"key": "PC-113", "type": "Task", "status": "Done", "summary": "Mise en place TLS 1.2+ et chiffrement au repos", "description": "Réf. EXNF-03.", "labels": ["EXNF-03"], "epic": "Sécurité"},
+  {"key": "PC-114", "type": "Story", "status": "To Do", "summary": "Audit d'accessibilité RGAA AA", "description": "Réf. EXNF-04.", "labels": ["EXNF-04"], "epic": "Qualité"}
+]
